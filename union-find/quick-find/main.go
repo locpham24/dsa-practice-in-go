@@ -6,11 +6,11 @@ import "fmt"
 
 func main() {
 	arr := []int{1, 1, 3, 3, 1, 3, 1, 2}
-	fmt.Println("isconnect", IsConnected(arr, 2, 6))
-
+	fmt.Println("isconnect", IsConnected(arr, 2, 6)) // false
+	fmt.Println("isconnect", IsConnected(arr, 1, 3)) // false
 	fmt.Println("connect", Connect(arr, 2, 6))
-
-	fmt.Println("isconnect", IsConnected(arr, 2, 6))
+	fmt.Println("isconnect", IsConnected(arr, 2, 6)) // true
+	fmt.Println("isconnect", IsConnected(arr, 1, 3)) // true
 }
 
 // Assume array is not empty
