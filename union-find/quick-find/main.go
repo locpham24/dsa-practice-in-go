@@ -5,7 +5,6 @@ import "fmt"
 // 1 1 3 3 1 3 1 2
 
 func main() {
-	// fmt.Println("test")
 	arr := []int{1, 1, 3, 3, 1, 3, 1, 2}
 	fmt.Println("isconnect", IsConnected(arr, 2, 6))
 
