@@ -10,4 +10,4 @@ O(1)
 
 This is a big problem with QuickFindUF
 
-Infer, this algorithm is not effection
+Infer, this algorithm is not efficient
